@@ -19,7 +19,7 @@ function Venta()
 
 function montoVentas(){
 	let total_ventas=0;	
-	for(let i in ventas)
+	for(let i=0; i<ventas.length;i++)
 	{
 		total_ventas=total_ventas+ventas[i].monto;
 	}
